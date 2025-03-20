@@ -1,18 +1,1 @@
-/*
-==========================================
-CREATE DATABASE AND SCHEMAS
 
-Script purpose: This script creates a new databased named 'DWH'. Additionally, the scrip sets up 3 schemas. 
-==========================================================
-*/
-USE master;
-
-CREATE DATABASE DWH;
-
-USE DWH;
-
-CREATE SCHEMA Bronze;
-GO
-CREATE SCHEMA Silver;
-GO
-CREATE SCHEMA Gold;
